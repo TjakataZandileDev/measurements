@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray; /* Set background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align everything to the left */
+}
+
+.logo {
+    width: 450px; /* Adjust logo size */
+    height: auto;
+    margin: 20px; /* Spacing from edges */
+}
+
+.container {
+    width: 50%;
+    margin-left: 20px; /* Align with logo */
+    margin-top: 10px; /* Add space below logo */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center button horizontally */
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
